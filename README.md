@@ -18,8 +18,6 @@ A simple web app built with Flask that allows users to upload a PDF resume and a
 
 ## ▶ How to Run
 
-## ▶ GUI Version (Flask Web App)
-
 1. Make sure **Python 3.x** is installed.
 
 2. Install the required packages:
