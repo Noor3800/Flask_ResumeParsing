@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Info</title>
+</head>
+<body>
+    <h1>Resume Information</h1>
+
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="resume" accept=".pdf" required>
+        <button type="submit">Upload & Parse</button>
+    </form>
+
+    {% if data %}
+        <p><strong>Name:</strong> {{ data.personal_info.name }}</p>
+        <p><strong>Email:</strong> {{ data.personal_info.email }}</p>
+        <p><strong>Phone:</strong> {{ data.personal_info.phone }}</p>
+        <p><strong>Address:</strong> {{ data.personal_info.address }}</p>
+
+        <h3>Education:</h3>
+        <ul>
+            {% for edu in data.education %}
+                <li>{{ edu }}</li>
+            {% endfor %}
+        </ul>
+
+        <h3>Experience:</h3>
+        <ul>
+            {% for exp in data.experience %}
+                <li>{{ exp }}</li>
+            {% endfor %}
+        </ul>
+
+        <h3>Skills:</h3>
+        <ul>
+            {% for skill in data.skills %}
+                <li>{{ skill }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
