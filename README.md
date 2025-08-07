@@ -6,15 +6,15 @@ A simple web app built with Flask that allows users to upload a PDF resume and a
 
 ## 📁 Project Structure
 
-├── app.py # Main Flask server
-├── cv_parser.py # Resume text parser and extractor
-├── index.html # HTML frontend for upload and output
-├── uploads/ # Stores uploaded resumes
-├── cv_data.json # Parsed output stored as JSON
-└── noor.pdf # Sample PDF resume
+```
+├── app.py           # Main Flask server
+├── cv_parser.py     # Resume text parser and extractor
+├── index.html       # HTML frontend for upload and output
+├── uploads/         # Stores uploaded resumes
+├── cv_data.json     # Parsed output stored as JSON
+└── noor.pdf         # Sample PDF resume
 
-
----
+```
 
 ## ▶ How to Run
 
