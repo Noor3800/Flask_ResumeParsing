@@ -46,7 +46,7 @@ A simple web app built with Flask that allows users to upload a PDF resume and a
 
 ## 📷 Screenshots
 
-![GUI Screenshot](screenshot.png)
+![GUI Screenshot](Screenshot.png)
 
 **GUI Example:**
 
