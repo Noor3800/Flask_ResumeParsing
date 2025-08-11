@@ -1,0 +1,88 @@
+body {
+    color: #333;
+    margin: 0;
+    padding: 0; background: linear-gradient(135deg, #e0f7fa, #f3e8ff);
+    background: linear-gradient(135deg, #9cc3e4, #eac8eb);
+    font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+    width: 800px;
+    margin: 30px auto;
+    padding: 25px 30px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: linear-gradient(135deg, #cce3f6, #e6f2ff);
+    backdrop-filter: blur(6px);
+    
+}
+
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-align: center;
+}
+h3 {
+    color :black;
+    border-bottom: 2px solid rgb(118, 118, 229);
+    padding-bottom: 5px;
+    align-items: center;
+}
+p, li {
+    line-height: 1.6;
+    margin-bottom: 15px; 
+}
+
+strong {
+    color: black;
+    font-size: 1.2em;
+}
+
+.skills-list li {
+    display: inline-block;
+    background: #e0aaff;
+    color: black;
+    padding: 6px 12px;
+    margin: 4px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+
+input[type="file"] {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #9a7fb4;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #5a189a;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
